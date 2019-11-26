@@ -8,4 +8,4 @@ module.exports={USE_EYE_NAV:!0,USE_COVER_HED:!0,DOC_URL:"https://docs.google.com
 },{}],"mpVp":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.hamburgerTrigger=o;var e=r(require("enter-view")),t=r(require("text-balancer")),n=require("../config.yml");function r(e){return e&&e.__esModule?e:{default:e}}var a=document.getElementById("navbar");function o(){a.classList.toggle("show-nav-links")}(0,e.default)({selector:n.USE_COVER_HED?".headline":".step-deck",offset:n.USE_COVER_HED?1:.957,enter:function(){a.classList.remove("only-logo")},exit:function(){a.classList.remove("show-nav-links"),a.classList.add("only-logo")}}),t.default.balanceText(".headline, .deck, .image-overlay .image-caption");
 },{"enter-view":"nKD1","text-balancer":"uGUE","../config.yml":"bpyv"}]},{},["mpVp"], "script")
-//# sourceMappingURL=script.ff4f21b8.js.map
+//# sourceMappingURL=https://spectator-static-assets.s3.amazonaws.com/uts/script.ff4f21b8.js.map
